@@ -177,3 +177,12 @@ Processing by StudentsController#show as HTML
 Completed 200 OK in 12ms (Views: 10.8ms | ActiveRecord: 0.1ms)
 
 
+Started GET "/students/1/edit" for 24.6.126.127 at 2020-07-21 03:44:49 +0000
+Processing by StudentsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mStudent Load (0.2ms)[0m  [1m[34mSELECT  "students".* FROM "students" WHERE "students"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering students/form.html.erb within layouts/application
+  Rendered students/form.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 14ms (Views: 12.3ms | ActiveRecord: 0.2ms)
+
+
