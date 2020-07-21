@@ -168,3 +168,12 @@ Redirected to http://165.227.31.156:59290/students/1
 Completed 302 Found in 7ms (ActiveRecord: 3.6ms)
 
 
+Started GET "/students/1" for 24.6.126.127 at 2020-07-21 03:44:43 +0000
+Processing by StudentsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mStudent Load (0.1ms)[0m  [1m[34mSELECT  "students".* FROM "students" WHERE "students"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering students/show.html.erb within layouts/application
+  Rendered students/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 12ms (Views: 10.8ms | ActiveRecord: 0.1ms)
+
+
